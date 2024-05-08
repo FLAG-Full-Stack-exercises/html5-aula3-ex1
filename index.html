@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - Aula 3: Ex. 1</title>
+    <meta name="description" content="Forms">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bruno VSilva">
+
+
+</head>
+<body>
+    <h1>Um formulário de demonstração</h1>
+
+    <h3>Neste exemplo só queremos que uma opção fique selecionada:</h3>
+        <form action="/send">
+            <div>
+                <input type="radio" name="opção">Opção 1
+            </div>
+            <div>
+                <input type="radio" name="opção">Opção 2
+            </div>
+            <div>
+                <input type="radio" name="opção">Opção 3
+            </div>
+        </form>
+
+    <h3>Cores Preferidas</h3>
+        <form action="/send">
+            <div>
+                <input type="checkbox" name="cor">Azul
+            </div>
+            <div>
+                <input type="checkbox" name="cor">Azul e Branco
+            </div>
+            <div>
+                <input type="checkbox" name="cor">Cinzento
+            </div>
+        </form>
+
+    <h3>Banda Preferida</h3>
+        <form action="/send">
+            <div>
+                <input type="text" name="band" placeholder="Amália Rodrigues">
+            </div>
+        </form>
+
+    <h3>Coloca a letra de uma música aqui</h3>
+        <textarea name="lyrics" rows="3" cols="60" placeholder="Describe yourself here..."></textarea>
+
+    <form action="/send">
+        <div>
+            <input type="submit" name="send" value="Enviar">
+        </div>
+    </form>
+
+</body>
+</html>
